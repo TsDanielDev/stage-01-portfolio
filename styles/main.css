@@ -116,3 +116,32 @@ section li {
   margin-bottom: 6px;
 }
 
+/* ===== PROJECTS SECTION ===== */
+#projects {
+  background-color: #ffffff;
+  border-left: 4px solid #6c5ce7;
+  border-radius: 6px;
+  padding: 25px 20px;
+  margin-bottom: 25px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+}
+
+#projects h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #6c5ce7;
+}
+
+#projects p {
+  font-size: 1rem;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+#projects ul {
+  margin-left: 20px;
+}
+
+#projects li {
+  margin-bottom: 6px;
+}
