@@ -145,3 +145,37 @@ section li {
 #projects li {
   margin-bottom: 6px;
 }
+
+/* ===== CONTACT SECTION ===== */
+#contact {
+  background-color: #ffffff;
+  border-left: 4px solid #0984e3;
+  border-radius: 6px;
+  padding: 25px 20px;
+  margin-bottom: 25px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+}
+
+#contact h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #0984e3;
+}
+
+#contact p {
+  font-size: 1rem;
+  color: #444;
+}
+
+#contact a {
+  color: #0984e3;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 8px;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
+
