@@ -179,3 +179,13 @@ section li {
   text-decoration: underline;
 }
 
+/* ===== FOOTER ===== */
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #777;
+  padding: 20px;
+  border-top: 1px solid #ddd;
+  margin-top: 40px;
+}
+
