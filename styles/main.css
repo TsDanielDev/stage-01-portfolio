@@ -1,3 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ==== ОСНОВА BODY ==== */
+body {
+  font-family: system-ui, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+
 header {
   text-align: center;
   border-left: 4px solid #007acc;
@@ -46,4 +64,26 @@ section li {
 
 #contact a:hover {
   text-decoration: underline;
+}
+
+/* ===== ABOUT SECTION ===== */
+#about {
+  background-color: #ffffff;
+  border-left: 4px solid #00b894;
+  border-radius: 6px;
+  padding: 25px 20px;
+  margin-bottom: 25px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+}
+
+#about h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #00b894;
+}
+
+#about p {
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.6;
 }
